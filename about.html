@@ -1,36 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="he">
 <head>
     <meta charset="UTF-8">
-    <title>About - Ronnie Souday-Weiss</title>
+    <title>צור קשר - רוני סודאי-וייס</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>About Ronnie Souday-Weiss</h1>
+        <h1>צור קשר עם רוני סודאי-וייס</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">דף הבית</a></li>
+                <li><a href="about.html">אודות</a></li>
+                <li><a href="contact.html">צור קשר</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h2>Professional Background</h2>
-            <p>Ronnie Souday-Weiss is a clinical psychologist based in Tel Aviv, specializing in providing therapeutic services to individuals seeking mental health support.</p>
-            <h3>Education</h3>
-            <ul>
-                <li>Master's Degree in Clinical Psychology from Bar Ilan University</li>
-                <li>Bachelor's Degree in Psychology from Tel Aviv University</li>
-            </ul>
-            <h3>Experience</h3>
-            <p>Ronnie has extensive experience in clinical settings, offering therapy to a diverse clientele. She is dedicated to helping clients achieve personal growth and emotional well-being.</p>
+            <h2>השאר פרטים</h2>
+            <form action="mailto:ronnie@example.com" method="post" enctype="text/plain">
+                <label for="name">שם:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">דוא"ל:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">הודעה:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">שלח</button>
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Ronnie Souday-Weiss. All rights reserved.</p>
+        <p>&copy; 2024 רוני סודאי-וייס. כל הזכויות שמורות.</p>
     </footer>
 </body>
 </html>
