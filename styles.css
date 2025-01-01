@@ -79,3 +79,10 @@ form button:hover {
     direction: rtl;
     background: #555;
 }
+
+.fab.fa-whatsapp {
+  color: #25D366;  /* WhatsApp green */
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
