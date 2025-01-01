@@ -1,39 +1,23 @@
+<!DOCTYPE html>
 <html lang="he">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>צור קשר - רוני סודאי-וייס</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>צור קשר עם רוני סודאי-וייס</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">דף הבית</a></li>
-                <li><a href="about.html">אודות</a></li>
-                <li><a href="contact.html">צור קשר</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>השאר פרטים</h2>
-            <form action="mailto:ronnie@example.com" method="post" enctype="text/plain">
-                <label for="name">שם:</label>
-                <input type="text" id="name" name="name" required>
+    <h1>צור קשר</h1>
 
-                <label for="email">דוא"ל:</label>
-                <input type="email" id="email" name="email" required>
+    <form action="send_form.php" method="POST">
+        <label for="name">שם:</label>
+        <input type="text" id="name" name="name" required>
 
-                <label for="message">הודעה:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="email">דוא"ל:</label>
+        <input type="email" id="email" name="email" required>
 
-                <button type="submit">שלח</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 רוני סודאי-וייס. כל הזכויות שמורות.</p>
-    </footer>
+        <label for="message">הודעה:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">שלח</button>
+    </form>
 </body>
 </html>
