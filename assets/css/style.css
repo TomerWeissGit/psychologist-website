@@ -108,6 +108,11 @@ html,body{
     position: relative;
     z-index: 9999;
 }
+.navbar-brand img {
+    height: 200px;
+    max-width: 100%;
+    vertical-align: middle;
+}
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
     background-color: #fff;
